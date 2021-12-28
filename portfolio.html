@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+   
+
+        <link rel="stylesheet" href="./css/main.min.css">
+    
+        
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header class="header ">
+    
+        <div class="box-navigation container  ">
+    
+            <div class="header__mobile-menu ">
+                <a href="./index.html" class="nav_link-logo"><span class="web-logo">Web</span><span>Studio</span></a>
+                <button class="mob__menu-open ">
+                    <svg class="header__mobile-icon" width="24" height="16">
+                        <use class="header__icon-menu " href="./images/symbol-defs.svg#icon-menu_24px"></use>
+                    </svg>
+                </button>
+            </div>
+    
+    
+            <nav class=" header__nav  ">
+    
+                <ul class="header__list">
+                    <li class="header__nav-item"><a href="./index.html" class="site-navigation ">Студия</a></li>
+                    <li class="header__nav-item"><a href="./portfolio.html" class="site-navigation current">Портфолио</a></li>
+                    <li class="header__nav-item"><a href="/" class="site-navigation">Контакты</a></li>
+                </ul>
+    
+                <ul class=" header__contacts">
+    
+                    <li class="header__contacts-item">
+                        <a href="mailto:info@devstudio.com" class="link-email" target="_blank"><svg class="icon-contact"
+                                width="16" height="12">
+                                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                            </svg>info@devstudio.com</a>
+                    </li>
+    
+                    <li class="header__contacts-item">
+                        <a href="tel:+380961111111" class="link-phone"><svg class="icon-contact" width="10" height="16">
+                                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                            </svg>+38 096 111 11 11</a>
+                    </li>
+    
+                </ul>
+            </nav>
+        </div>
+    
+        <div class="header__mobile-nav is-hidden">
+            <button class="mobile__close-btn ">
+                <svg class="header__mobile-icon" width="24" height="16">
+                    <use class="header__icon-close js-close-menu" href="./images/symbol-defs.svg#icon-close_24px"></use>
+                </svg></button>
+            <ul class="header__mobile-list">
+                <li class="header__mobile-item"><a href="./index.html" class="header__mobile-link ">Студия</a></li>
+                <li class="header__mobile-item"><a href="./portfolio.html" class="header__mobile-link active">Портфолио</a></li>
+                <li class="header__mobile-item"><a href="/" class="header__mobile-link">Контакты</a></li>
+            </ul>
+    
+            <ul class=" header__mobile-contacts">
+    
+                <li class="header__contacts-item">
+                    <a href="tel:+380961111111" class=" link-phone-mob"><svg class="icon-contact" width="10" height="16">
+                            <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                        </svg>+38 096 111 11 11</a>
+                </li>
+    
+                <li class="header__mobile-item">
+                    <a href="mailto:info@devstudio.com" class="link-email-mob" target="_blank"><svg class="icon-contact"
+                            width="16" height="12">
+                            <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                        </svg>info@devstudio.com</a>
+                </li>
+            </ul>
+    
+            <ul class="mob__networks-list">
+                <li class="mob__networks-item"><a href="" class="mob__networks-link">Instagram <span
+                            class="mob__networks-span">|</span></a> </li>
+                <li class="mob__networks-item"> <a href="" class="mob__networks-link">Twitter <span
+                            class="mob__networks-span">|</span></a> </li>
+                <li class="mob__networks-item"><a href="" class="mob__networks-link">Facebook <span
+                            class="mob__networks-span">|</span></a> </li>
+                <li class="mob__networks-item"><a href="" class="mob__networks-link">LinkedIn <span
+                            class="mob__networks-span">|</span></a> </li>
+            </ul>
+    
+        </div>
+    </header>
+
+<main >
+     <section  class=" section">
+         <div class="container">
+        <h1 class="invisible-text ">Заголовок</h1>
+        <ul class="selection ">
+            <li class="selection__item"><button class="selection__button" type="button">Все</button></li>
+            <li class="selection__item"><button class="selection__button" type="button">Веб-сайты</button></li>
+            <li class="selection__item"><button class="selection__button" type="button">Приложения</button></li>
+            <li class="selection__item selection__item--margin selection__item--left-margin"><button class="selection__button" type="button">Дизайн</button></li>
+            <li class="selection__item selection__item--margin"><button class="selection__button" type="button">Маркетинг</button></li>
+        </ul>
+          
+        <ul class="project">
+            <li class="project__item"><a href="" class="project__image"> <div class="project__hover"> <img 
+                srcset="images/portfolio/works-1-desktop.webp, images/portfolio/works-1-desktop@2x.webp 2x"
+                src="./images/texnocryak.jpg" alt="texnocryak" width="450px">
+               <p class="project__text ">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+            шпионажа и атак на защищённые сервера конкурентов.</p></div>
+                
+                <div class="project__box"><h2 class="project__name">Технокряк</h2>
+                <p class="project__specialization project__specialization--padding">Веб-сайт</p></div></a>
+            </li>
+
+            <li class="project__item" ><a href="" class="project__image"><div class="project__hover"><img 
+                srcset="images/portfolio/works-2-desktop.webp, images/portfolio/works-2-desktop@2x.webp 2x"
+                src="./images/neworlean.jpg" alt="neworlean" width="450px">
+                <p class="project__text ">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                    платформу для цифрового
+                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                </div>
+                <div class="project__box"><h2 class="project__name">Постер New Orlean vs Golden Star</h2>
+                <p class="project__specialization">Дизайн</p> </div></a>
+            </li>
+
+            <li class="project__item" ><a href="" class="project__image"><div class="project__hover"><img 
+                srcset="images/portfolio/works-3-desktop.webp, images/portfolio/works-3-desktop@2x.webp 2x"
+                src="./images/seafood.jpg" alt="seafood" width="450px">
+                <p class="project__text ">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                    платформу для цифрового
+                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                </div>
+                <div class="project__box"><h2 class="project__name">Ресторан Seafood</h2>
+                <p class="project__specialization">Приложение</p> </div></a>
+            </li>
+
+            <li class="project__item"><a href="" class="project__image"><div class="project__hover"><img 
+                srcset="images/portfolio/works-4-desktop.webp, images/portfolio/works-4-desktop@2x.webp 2x"src="./images/prime.jpg" alt="prime" width="450px"> 
+                <p class="project__text ">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                    платформу для цифрового
+                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                </div>
+                <div class="project__box"><h2 class="project__name">Проект Prime</h2>
+                <p class="project__specialization">Маркетинг</p></div> </a>
+            </li>
+
+            <li class="project__item" ><a href="" class="project__image"><div class="project__hover"><img 
+                srcset="images/portfolio/works-5-desktop.webp, images/portfolio/works-5-desktop@2x.webp 2x"
+                src="./images/boxes.jpg" alt="boxes" width="450px">
+                <p class="project__text ">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                    платформу для цифрового
+                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                </div>
+                <div class="project__box"><h2 class="project__name">Проект Boxes</h2>
+                <p class="project__specialization">Приложение</p></div> </a>
+            </li>
+
+            <li class="project__item"><a href="" class="project__image"><div class="project__hover"><img 
+                srcset="images/portfolio/works-6-desktop.webp, images/portfolio/works-6-desktop@2x.webp 2x"
+                src="./images/borders.jpg" alt="borders" width="450px">
+                <p class="project__text ">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                    платформу для цифрового
+                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                </div>
+                <div class="project__box"><h2 class="project__name">Inspiration has no Borders</h2>
+                <p class="project__specialization">Веб-сайт</p></div> </a>
+            </li>
+
+            <li class="project__item"><a href="" class="project__image"><div class="project__hover"><img 
+                srcset="images/portfolio/works-7-desktop.webp, images/portfolio/works-7-desktop@2x.webp 2x"
+                src="./images/limitededition.jpg" alt="limitededition" width="450px">
+                <p class="project__text ">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                    платформу для цифрового
+                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                </div>
+                <div class="project__box"><h2 class="project__name">Издание Limited Edition</h2>
+                <p class="project__specialization">Дизайн</p></div> </a>
+            </li>
+
+            <li class="project__item" ><a href="" class="project__image"><div class="project__hover"><img 
+                srcset="images/portfolio/works-8-desktop.webp, images/portfolio/works-8-desktop@2x.webp 2x"
+                src="./images/lab.jpg" alt="lab" width="450px">
+                <p class="project__text ">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                    платформу для цифрового
+                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                </div>
+                <div class="project__box"><h2 class="project__name">Проект LAB</h2>
+                <p class="project__specialization">Маркетинг</p> </div></a>
+            </li>
+
+            <li class="project__item"><a href="" class="project__image"><div class="project__hover"><img 
+                srcset="images/portfolio/works-9-desktop.webp, images/portfolio/works-9-desktop@2x.webp 2x"
+                src="./images/business.jpg" alt="business"width="450px">
+                <p class="project__text ">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                    платформу для цифрового
+                    шпионажа и атак на защищённые сервера конкурентов.</p>
+                </div>
+                <div class="project__box"><h2 class="project__name">Growing Business</h2>
+                <p class="project__specialization">Приложение</p> </div></a>
+            </li>
+
+        </ul> 
+     </div>    
+    </section>
+</main>
+
+<footer>
+
+    <section class="footer">
+
+        <div class="container  footer-box">
+            <div class="footer-tablet">
+                <div class="footer__address">
+                    <a href="./index.html" class="logo-link "><span class="web-logo">Web</span><span
+                            class="logo-bottom">Studio</span></a>
+                    <address>
+
+                        <p class="footer__text">г. Киев, пр-т Леси Украинки, 26</p>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="mailto:info@example.com" class="footer__email"
+                                    target="_blank"> info@example.com</a></li>
+                            <li class="footer__item footer__item--margin"><a href="tel:+380991111111:"
+                                    class="footer__phone">+38 099 111 11 11</a></li>
+                        </ul>
+
+                    </address>
+                </div>
+
+                <div class="join join-footer">
+                    <p class="join__title">Присоединяйтесь</p>
+                    <ul class="social-networks social-networks--footer-margin">
+                        <li class="social-networks__item">
+                            <a href="" class="social-networks__link social-networks__link--footer">
+                                <svg class="social-networks__icon social-networks__icon--footer" width="20" height="20">
+                                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                </svg></a>
+
+                        </li>
+                        <li class="social-networks__item">
+                            <a href="" class="social-networks__link social-networks__link--footer">
+                                <svg class="social-networks__icon social-networks__icon--footer" width="20" height="20">
+                                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                                </svg></a>
+
+                        </li>
+                        <li class="social-networks__item">
+                            <a href="" class="social-networks__link social-networks__link--footer">
+                                <svg class="social-networks__icon social-networks__icon--footer" width="20" height="20">
+                                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                </svg></a>
+
+                        </li>
+                        <li class="social-networks__item">
+                            <a href="" class="social-networks__link social-networks__link--footer">
+                                <svg class="social-networks__icon social-networks__icon--footer" width="20" height="20">
+                                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                </svg></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class=" mailing footer-mailing">
+                <h2 class="invisible-text">Заголовок</h2>
+                <p class="mailing__text">Подпишитесь на рассылку</p>
+
+                <div class="mailing__form">
+                    <label for="email-footer"></label>
+                    <input type="email" name="email" id="email-footer" placeholder="E-mail" class="mailing__input">
+
+
+                    <button type="button" class="mailing__button"> Подписаться
+                        <svg class="mailing__svg" width="24" height="24">
+                            <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                        </svg>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</footer>
+
+<script src="./js/mobile-menu.js"></script>
+
+</body>
+</html>
